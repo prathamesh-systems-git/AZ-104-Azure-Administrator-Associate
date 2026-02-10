@@ -6,13 +6,13 @@ Welcome to my AZ-104 study repository. This project is a living document of my p
 
 ## 🎯 Exam Objectives Tracker
 
-| Domain | Status | Key Focus Areas |
-| :--- | :--- | :--- |
-| **Identity & Governance** | 🟡 In Progress | Entra ID, RBAC, Subscriptions, Policy |
-| **Storage Management** | ⚪ Planned | Storage Accounts, Azure Files, Blob Storage |
-| **Compute Resources** | ⚪ Planned | VMs, Containers, App Service, Batch |
-| **Virtual Networking** | ⚪ Planned | VNETs, Peering, DNS, Load Balancers |
-| **Monitoring & Backup** | ⚪ Planned | Azure Monitor, Backup, Recovery Vault |
+| Domain | Key Focus Areas |
+| :--- | :--- |
+| **Identity & Governance** | Entra ID, RBAC, Subscriptions, Policy |
+| **Storage Management** | Storage Accounts, Azure Files, Blob Storage |
+| **Compute Resources** | VMs, Containers, App Service, Batch |
+| **Virtual Networking** | VNETs, Peering, DNS, Load Balancers |
+| **Monitoring & Backup** | Azure Monitor, Backup, Recovery Vault |
 
 ---
 
