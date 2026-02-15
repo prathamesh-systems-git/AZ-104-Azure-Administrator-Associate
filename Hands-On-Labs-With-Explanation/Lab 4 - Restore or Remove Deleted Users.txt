@@ -1,0 +1,24 @@
+Exercise environment needs - this lab assumes you have a basic Microsoft Entra tenant with at least User Administrator rights to complete it. 
+
+
+###########################################################################################################################################################
+
+
+Remove a user from Microsoft Entra ID:-
+1. In the left navigation, under Identity, select Users.
+2. In the Users list, select the check box for a user to delete. For example, select Steven Rogers.
+3. With the user account selected, on the menu, select Delete user.
+4. Review the dialog box and then select OK.
+
+
+###########################################################################################################################################################
+
+
+Restore a deleted user:-
+1. You can see all the users that were deleted less than 30 days ago. These users can be restored.
+2. In the Users page, in the left navigation, select Deleted users.
+3. Review the list of deleted users and select the user you deleted.
+4. By default, deleted user accounts are permanently removed from Microsoft Entra ID automatically after 30 days.
+5. On the menu, select Restore user.
+6. Review the dialog box and then select OK.
+7. In the left navigation, select All users. Verify the user was restored.

@@ -1,0 +1,61 @@
+############################################################################################################################################################
+Create a Microsoft Azure resource:-
+############################################################################################################################################################
+
+In this exercise, you’ll use the Azure portal to create a resource. The focus of the exercise is observing how Azure resource groups populate with created resources.
+
+
+Task 1: Create a resource group:-
+In this task, you’ll create a resource group. By creating a resource group for this exercise, it will make it easier to clean up the exercise when you’re complete.
+
+1. Log into the Azure portal.
+2. Select Resource groups.
+3. Select Create.
+4. Select the subscription you will use for this exercise from the Subscription dropdown list.
+5. Enter IntroAzureRG for the resource group name.
+6. Select Central US as the region.
+7. Select Review + create.
+8. Select Create.
+9. Select Home to return to the Azure portal home screen.
+
+
+############################################################################################################################################################
+
+
+Task 2: Create a virtual machine:-
+In this task, you’ll create a virtual machine using the Azure portal.
+
+1. Select Create a resource.
+2. Select Infrastructure services from the Categories menu.
+3. Select Create under the virtual machine heading.
+4. The Create a virtual machine pane opens to the basics tab.
+5. Verify or enter the following values for each setting. If a setting isn’t specified, leave the default value.
+6. Select Review & Create
+7. Select Create
+
+
+############################################################################################################################################################
+
+
+Task 3: Verify resources created:-
+Once the deployment is created, you can verify that Azure created not only a VM, but all of the associated resources the VM needs.
+
+1. Select Home
+2. Select Resource groups
+3. Select the IntroAzureRG resource group
+4. You should see a list of resources in the resource group. By default, Azure gave them all a similar name to help with association and grouped them in the same resource group.
+
+Congratulations! You’ve created a resource in Azure and had a chance to see how resources get grouped on creation.
+
+
+############################################################################################################################################################
+
+
+Clean up:-
+1. From the Azure home page, under Azure services, select Resource groups.
+2. Select the IntroAzureRG resource group.
+3. Select Delete resource group.
+4. Ensure Apply force delete for seleted Virtual machines and Virtual machine scale sets is checked.
+5. Enter IntroAzureRG to confirm deletion of the resource group.
+6. Select Delete.
+7. On the Delete confirmation pop-up window, select Delete.

@@ -1,0 +1,37 @@
+Exercise environment needs - this lab assumes you have a basic Microsoft Entra tenant with at least User Administrator rights to complete it.
+
+###########################################################################################################################################################
+
+Create a New User in Microsoft Entra ID:– 
+1. Open the link - https://entra.microsoft.com/
+2. In the left navigation, under select Users, then All Users.
+3. Within the Users page, on the menu, select + New user and Create new user.
+4. Enter the details of new user and then verify the account for Chris Green is shown in the All users list.
+
+
+###########################################################################################################################################################
+
+
+Create a Security Group in Microsoft Entra ID:- 
+1. In the left navigation, under Identity, select Groups and then All groups.
+2. In the Groups screen, on the menu, select New group.
+3. When complete, verify the group named Marketing is shown in the All groups list.
+
+
+###########################################################################################################################################################
+
+
+Assign a license to a group:- 
+1. In the All groups list, select Marketing.
+2. In the Marketing window, under Manage, select Licenses.
+3. Notices that no licenses are currently assigned to this group.
+4. Open a new tab in your browser.
+5. Go to the Microsoft 365 admin centre at http://admin.microsoft.com.
+6. Select Billing from the menu on the left.
+7. Select Licenses.
+8. From the list of licenses you have available, select one.
+9. Next you select Groups from the list near the top of the screen.
+10.On the Groups page, select + Assign license.
+11.Search for and select the Marketing group we created earlier.
+12.Select the Assign button at the bottom of the dialog.
+13.You should get a message that licenses were successfully assigned.

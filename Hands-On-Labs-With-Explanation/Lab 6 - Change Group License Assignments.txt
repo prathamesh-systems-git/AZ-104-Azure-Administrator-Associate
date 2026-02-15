@@ -1,0 +1,20 @@
+Exercise environment needs - this lab assumes you have a basic Microsoft Entra tenant with at least User Administrator rights to complete it. 
+
+
+############################################################################################################################################################
+
+
+Change group license assignment:-
+1. Open https://entra.microsoft.com to get to the Microsoft Entra admin center.
+2. In the left navigation, open Groups.
+3. Select All groups, then select one of the available groups.
+4. In the left navigation, under Manage, select Licenses.
+5. You will see a list of any license assignments that are currently made. And you will find that you have to use the Microsoft 365 Admin Center to make any updates.
+6. Review the current assignments and then, on the menu, select + Assignments.
+7. Open https://admin.microsoft.com to open the Microsoft 365 admin center.
+8. Select Billing. Then select Licenses."
+9. Select an available license from the list.
+10. Select Groups from the menu near the top of the page.
+11. Select the + Assign licenses option.
+12. Pick the group you were looking at earlier in Microsoft Entra. Then select the Assign button at the bottom of the page.
+13. On the group’s Licenses page, review the change. You should be able to see the change in both the Microsoft Entra admin center and the Microsoft 365 admin center.
