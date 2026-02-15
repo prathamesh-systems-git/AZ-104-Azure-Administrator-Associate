@@ -1,5 +1,7 @@
 In this exercise, you create an Azure Resource Manager (ARM) template, deploy it to Azure, and then update that ARM template to add parameters and outputs.
 
+###########################################################################################################################################################
+
 Create an ARM Template:-
 Step 1: Open Visual Studio Code and create a new file called azuredeploy.json.
 
@@ -19,6 +21,9 @@ Notice that this file has all of the sections of an ARM template.
 Step 3: Save the changes to the file by pressing Ctrl+S.
 
 
+###########################################################################################################################################################
+
+
 Deploy the ARM template to Azure:-
 To deploy this template to Azure, you need to sign in to your Azure account from the Visual Studio Code terminal. Be sure that Azure PowerShell Tools are installed from the Visual Studio Code Extensions.
 
@@ -31,6 +36,9 @@ Step 3: If not, select the down arrow and in the dropdown list select PowerShell
 Step 4: In the input field, scroll down and select PowerShell.
 
 Step 5: Change directory to the folder containing your ARM template files.
+
+
+###########################################################################################################################################################
 
 
 Sign in to Azure by using Azure PowerShell:-
@@ -57,6 +65,8 @@ When you deploy your ARM template to Azure, go to the Azure portal (https://port
 5. Select blanktemplate to see what resources were deployed. In this case, it's empty because you didn't specify any resources in the template yet.
 6. Leave the page open in your browser so that you can check on deployments again.
 
+
+###########################################################################################################################################################
 
 
 Add a resource to the ARM template:-
@@ -94,6 +104,8 @@ Step 3: The resource location is set to the same location as the resource group 
 Step 4: Save the file.
 
 
+###########################################################################################################################################################
+
 
 Deploy the updated ARM template:-
 Here, you change the name of the deployment to better reflect what this deployment does.
@@ -104,6 +116,8 @@ $today=Get-Date -Format "MM-dd-yyyy"
 $deploymentName="addstorage-"+"$today"
 New-AzResourceGroupDeployment -Name $deploymentName -TemplateFile $templateFile
 
+
+###########################################################################################################################################################
 
 
 Check your deployment:-
